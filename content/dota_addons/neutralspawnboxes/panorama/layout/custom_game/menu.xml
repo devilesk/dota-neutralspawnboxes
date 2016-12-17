@@ -1,0 +1,36 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/menu.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/menu.js" />
+	</scripts>
+	<Panel class="LeftMenu">
+        <Panel class="SubSection">
+            <Label text="#section_header_tower_ranges" />
+            <ToggleButton id="btn1" checked="true" onactivate="OnCheckBoxPressed('cbTowerDayVisionRange')" text="#day_range" />
+            <ToggleButton id="btn2" checked="true" onactivate="OnCheckBoxPressed('cbTowerNightVisionRange')" text="#night_range" />
+            <ToggleButton id="btn3" checked="true" onactivate="OnCheckBoxPressed('cbTowerTrueSightRange')" text="#true_sight_range" />
+            <ToggleButton id="btn4" checked="true" onactivate="OnCheckBoxPressed('cbTowerAttackRange')" text="#attack_range" />
+        </Panel>
+        <Panel class="SubSection">
+            <Label text="#section_header_neutrals" />
+            <ToggleButton id="btn5" checked="true" onactivate="OnCheckBoxPressed('cbNeutralSpawnBox')" text="#spawn_box" />
+            <ToggleButton id="btn6" checked="true" onactivate="OnCheckBoxPressed('cbDetectNeutrals')" text="#detect_neutrals" />
+        </Panel>
+        <Panel class="SubSection">
+            <Label text="#section_header_ward_vision" />
+            <ToggleButton id="btn7" checked="true" onactivate="OnCheckBoxPressed('cbSentryVision')" text="#sentry" />
+            <ToggleButton id="btn8" checked="true" onactivate="OnCheckBoxPressed('cbWardVision')" text="#observer" />
+        </Panel>
+        <Panel class="SubSection">
+            <Label text="#section_header_hero" />
+            <ToggleButton id="btn9" checked="true" onactivate="OnCheckBoxPressed('cbHeroXPRange')" text="#xp_range" />
+            <ToggleButton id="btn10" checked="true" onactivate="OnCheckBoxPressed('cbFogOfWar')" text="#fog_of_war" />
+        </Panel>
+        <Button id="MinimizeButton" onactivate="OnMinimizePressed()">
+            <Label text="#btn_minimize" />
+        </Button>
+	</Panel>
+</root>

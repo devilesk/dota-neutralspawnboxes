@@ -1,0 +1,39 @@
+.LeftMenu
+{
+	width: 160px;
+	height: 700px;
+  border: 1px solid red;
+  background-color: black;
+	vertical-align: bottom;
+	margin-bottom: 300px;
+  padding: 5px;
+	border-radius: 3px;
+  flow-children: down;
+	border: 2px solid #ffffff05;
+}
+
+.LeftMenu.hidden {
+  height: 44px;
+}
+
+.LeftMenu.hidden .SubSection {
+  visibility: collapse;
+}
+
+.SubSection {
+  flow-children: down;
+  padding: 5px;
+}
+
+#MinimizeButton {
+  vertical-align: bottom;
+  background-color: gradient( linear, 0% 0%, 0% 100%, from( #2e2716 ), to( #020302 ) );
+  width:100%;
+  border-radius: 3px;
+  border: 2px solid #ffffff05;
+}
+
+#MinimizeButton Label {
+  color: #ffffff66;
+  horizontal-align: center;
+}

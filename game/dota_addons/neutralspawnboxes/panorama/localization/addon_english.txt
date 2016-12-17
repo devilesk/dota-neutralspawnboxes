@@ -1,0 +1,22 @@
+"addon"
+{
+    "section_header_tower_ranges"               "Tower Ranges"
+    "day_range"                                 "Day"
+    "night_range"                               "Night"
+    "true_sight_range"                          "True Sight"
+    "attack_range"                              "Attack"
+    
+    "section_header_neutrals"                   "Neutrals"
+    "spawn_box"                                 "Spawn Box"
+    "detect_neutrals"                           "Detect Neutrals"
+    
+    "section_header_ward_vision"                "Ward Vision"
+    "sentry"                                    "Sentry"
+    "observer"                                  "Observer"
+    
+    "section_header_hero"                       "Hero"
+    "xp_range"                                  "XP Range"
+    "fog_of_war"                                "Fog of War"
+    
+    "btn_minimize"                              "Overlays"
+}
